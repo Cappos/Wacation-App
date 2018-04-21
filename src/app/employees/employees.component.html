@@ -1,3 +1,18 @@
-<p>
-  employees works!
-</p>
+<mat-card>
+  <mat-card-content>
+    <div fxLayout="row" fxLayoutAlign="start center">
+       <button mat-icon-button [matMenuTriggerFor]="menu">
+                  <mat-icon>more_vert</mat-icon>
+              </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-item routerLink="/newEmployee">
+                    <mat-icon>add</mat-icon>
+                    <span>Add new</span>
+                  </button>
+                </mat-menu>
+    <!--<span class="mat-title">{{title}}</span>-->
+    </div>
+    <mat-divider></mat-divider>
+
+  </mat-card-content>
+</mat-card>

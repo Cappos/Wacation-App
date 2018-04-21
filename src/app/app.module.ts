@@ -5,7 +5,8 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {
-    MatButtonModule, MatButtonToggleModule, MatIconModule, MatListModule, MatSidenavModule,
+    MatButtonModule, MatButtonToggleModule, MatCardModule, MatIconModule, MatListModule, MatMenuModule,
+    MatSidenavModule,
     MatToolbarModule
 } from "@angular/material";
 import {HttpClientModule} from "@angular/common/http";
@@ -35,6 +36,8 @@ import {CompletedFormsComponent} from "./completed-forms/completed-forms.compone
         MatListModule,
         MatButtonModule,
         MatButtonToggleModule,
+        MatMenuModule,
+        MatCardModule,
         // Layout
         FlexLayoutModule
     ],
